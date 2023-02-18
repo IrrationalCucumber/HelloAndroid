@@ -6,4 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:hint="To"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="349dp"
+        android:layout_height="46dp"
+        android:hint="Subject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:hint="Message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="136dp"
+        android:layout_height="58dp"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
