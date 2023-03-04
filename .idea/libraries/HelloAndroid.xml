@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HelloAndroid">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HelloAndroid.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
