@@ -12,6 +12,11 @@
         android:theme="@style/Theme.HelloAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityFragment"
+            android:exported="false"
+            android:label="@string/title_activity_main_fragment"
+            android:theme="@style/Theme.HelloAndroid.NoActionBar" />
+        <activity
             android:name=".ListActivity"
             android:exported="false" />
         <activity
