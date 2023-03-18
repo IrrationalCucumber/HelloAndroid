@@ -2,9 +2,11 @@ package com.example.actionbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -49,6 +51,20 @@ public class MainActivity extends AppCompatActivity {
             }
             return super.onOptionsItemSelected(item);
 
+        }
+        private void showAlertDialog(){
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Alert!")
+                    .setMessage("Danger you are failing!");
+            builder.setPositiveButton("I know", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int id) {
+
+                }
+            });
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
         }
 
     }
