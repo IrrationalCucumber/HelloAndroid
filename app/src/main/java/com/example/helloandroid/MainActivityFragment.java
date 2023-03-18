@@ -38,10 +38,10 @@ public class MainActivityFragment extends AppCompatActivity {
         });
         }
         private void loadFragment( Fragment fragment ){
-            FragmentManager fm = new getFragmentManager();
-            FragmentTransaction fragmentTransaction = fm.beginTransaction();
-            fragmentTransaction.replace(R.id.frameLayout, fragment);
-            fragmentTransaction.commit();
+            //FragmentManager fm = new getFragmentManager();
+            //FragmentTransaction fragmentTransaction = fm.beginTransaction();
+            //fragmentTransaction.replace(R.id.frameLayout, fragment);
+            //fragmentTransaction.commit();
 
 
     }

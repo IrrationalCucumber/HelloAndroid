@@ -10,17 +10,18 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:layout_width="3000dp"
-        android:layout_height="4400dp"
+        android:layout_width="300dp"
+        android:layout_height="440dp"
         android:background="#1D90EC"
         app:circularflow_radiusInDP="10dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="This is Dialog Fragment"
-            android:textSize="40dp"
             android:gravity="center"
-            android:textStyle="bold"/>
+            android:text="This is Dialog Fragment"
+            android:textSize="20dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 

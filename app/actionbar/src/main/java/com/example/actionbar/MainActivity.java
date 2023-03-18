@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         actionBar.setTitle(" Gfg | ActionBar");
 
-        actionBar.setSubtitle("This is an Action BAr");
+        actionBar.setSubtitle("This is an Action Bar");
 
         actionBar.setIcon(R.mipmap.ic_launcher);
     }
@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.refresh:
                     DialogFragment dialogFragment = new DialogFragment();
                     dialogFragment.show(getSupportFragmentManager(), "My Fragment");
+                    break;
                 case R.id.copy:
                     Toast.makeText(this, "Copy Clicked", Toast.LENGTH_SHORT).show();
                     break;
