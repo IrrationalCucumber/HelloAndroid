@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setSubtitle("This is an Action Bar");
 
         actionBar.setIcon(R.mipmap.ic_launcher);
+
+        actionBar.setDisplayUseLogoEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
 
         @Override
