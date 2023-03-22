@@ -1,12 +1,13 @@
 package com.example.helloandroid;
 
-import android.os.Bundle;
-
 import android.app.Fragment;
+import android.os.Bundle;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -34,7 +35,7 @@ public class FirstFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentA.
+     * @return A new instance of fragment BlankFragmentA.
      */
     // TODO: Rename and change types and number of parameters
     public static FirstFragment newInstance(String param1, String param2) {
