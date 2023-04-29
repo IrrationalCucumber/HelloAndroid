@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/action" />
             <option value="$PROJECT_DIR$/app/actionbar" />
+            <option value="$PROJECT_DIR$/app/bottomnav" />
+            <option value="$PROJECT_DIR$/myapplication" />
           </set>
         </option>
       </GradleProjectSettings>
